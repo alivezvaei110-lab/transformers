@@ -63,3 +63,8 @@ Transformers is designed for developers and machine learning engineers and resea
 ## Learn
 
 If you're new to Transformers or want to learn more about transformer models, we recommend starting with the [LLM course](https://huggingface.co/learn/llm-course/chapter1/1?fw=pt). This comprehensive course covers everything from the fundamentals of how transformer models work to practical applications across various tasks. You'll learn the complete workflow, from curating high-quality datasets to fine-tuning large language models and implementing reasoning capabilities. The course contains both theoretical and hands-on exercises to build a solid foundational knowledge of transformer models as you learn.
+## Tokenizer Notes
+
+Some tokenizer behaviors may depend on how special tokens are initialized
+and mapped internally. When working with custom or vision-related tokenizers,
+double-check special token IDs and mappings to ensure consistency.
