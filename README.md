@@ -334,3 +334,8 @@ We now have a [paper](https://www.aclweb.org/anthology/2020.emnlp-demos.6/) you 
     pages = "38--45"
 }
 ```
+## Notes
+
+This project is under active development.
+Small documentation improvements and clarifications are continuously added
+to make the usage clearer for new users.
